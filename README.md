@@ -1,6 +1,6 @@
 # Clases
 
-* [Teams](https://teams.microsoft.com/l/meetup-join/19%3a8f588233822a451f9b2d24d3015bf562%40thread.tacv2/1598130592172?context=%7b%22Tid%22%3a%22d79720cd-d8c0-4d0c-a404-2dcd025f01e3%22%2c%22Oid%22%3a%22718b0313-ea53-4221-bac2-985bf0ae77f5%22%7d)
+* Zoom ID: 942 7731 8465
 * [Foro de Tecnologia](https://aulas.ort.edu.uy/mod/forum/view.php?id=231726)
 * [GitHub: Cuentas](https://1drv.ms/x/s!AsRv3us8uF1Rg8JNRBvzcjCj0erZ3A?e=d13yAE)
 
