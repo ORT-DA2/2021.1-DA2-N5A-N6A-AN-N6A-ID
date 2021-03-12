@@ -38,4 +38,4 @@
 ## Contacto
 
 * Email Santiago: [santiagomendezvarela@outlook.com](mailto:santiagomendezvarela@outlook.com)
-* Email Gonzalo: [gm68308@fi365.ort.edu.uy](malito:gm68308@fi365.ort.edu.uy)
+* Email Gonzalo: [gm68308@fi365.ort.edu.uy](mailto:gm68308@fi365.ort.edu.uy)
