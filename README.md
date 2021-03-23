@@ -24,12 +24,12 @@
 * [Clase 9 - Componentes, Templates, Bootstrapping, Directivas, Data Binding y Pipes](/Clases/Clase8_Componentes_Templates_Bootstrapping_Directivas_Data_Binding_y_Pipes.md)
 * [Clase 10 - Custom Pipes y Service Basico](/Clases/Clase9_Custom_Pipes_y_Service_Basico.md)
 * [Clase 11 - Conceptos avanzados](/Clases/Clase10_Conceptos_avanzados.md)
-* [Clase 11 - Http y Observables y Más sobre Routing](/Clases/Clase10_Http_y_Observables_y_Mas_sobre_Routing.md)
+* [Clase 11 - Http y Observables y Más sobre Routing](/Clases/Clase10_Http_y_Observables_y_Mas_sobre_Routing.md)-->
 
 ## Links de Interés
 
 * [EF Core - Lazy Loading](https://www.learnentityframeworkcore.com/lazy-loading)
-* [EF Core - Relaciones: Many To Many](https://www.learnentityframeworkcore.com/configuration/many-to-many-relationship-configuration)-->
+* [EF Core - Relaciones: Many To Many](https://www.learnentityframeworkcore.com/configuration/many-to-many-relationship-configuration)
 
 ## Aclaración
 
