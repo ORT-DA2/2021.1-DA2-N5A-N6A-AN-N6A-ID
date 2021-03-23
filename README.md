@@ -8,12 +8,11 @@
 
 * [Clase 1 - .NET Core](/Clases/Clase%201%20-%20NET%20Core.md)
 * [Clase 1 - Comandos Básicos](/Clases/Clase%201%20-%20Creacion.md)
-* [Clase 2 - WebApi](Clases/Clase%202%20-%20WebApi.md)
-* [Código WebApi](/Codigo/Backend) 
-<!---* [Clase 3 - Aplicación Base](/Clases/Clase%202%20-%20Aplicacion.md) / 
+* [Clase 2 - WebApi](Clases/Clase%202%20-%20WebApi.md) / [WEB API PPT](https://na01.safelinks.protection.outlook.com/?url=http%3A%2F%2Faulas.ort.edu.uy%2Fpluginfile.php%2F438541%2Fmod_forum%2Fattachment%2F213651%2FDA2%2520-%2520Clase%25202%2520-%2520Tecnolog%25C3%25ADa.%2520Web%2520Api.pptx&data=04%7C01%7C%7C4c01b6ab2c57470c8e8908d8ecc8614f%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637519692652475383%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=6DEPlgUsgFq9mHdMhimth5puKy7ycgfXRFP1qaLhjQY%3D&reserved=0)
+* [Clase 3 - Aplicación Base](/Clases/Clase%202%20-%20Aplicacion.md) / [Código WebApi](/Codigo/Backend)
 * [Clase 3 - Inyección de Dependencias](/Clases/Clase%203%20-%20InyeccionDependencias.md)
 * [Clase 3 - EF Core](/Clases/Clase%203%20-%20EntityFrameworkCore.md)
-* [Clase 4 - Testing](/Clases/Clase4.1_Testing.md)
+<!---* [Clase 4 - Testing](/Clases/Clase4.1_Testing.md)
 * [Clase 4 - Mocking](/Clases/Clase4.2_Mocking.md)
 * Clase 5 - Feriado
 * [Clase 6 - Filters](/Clases/Clase5_Filters.md)
