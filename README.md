@@ -12,9 +12,9 @@
 * [Clase 3 - Aplicación Base](/Clases/Clase%202%20-%20Aplicacion.md) / [Código WebApi](/Codigo/Backend)
 * [Clase 3 - Inyección de Dependencias](/Clases/Clase%203%20-%20InyeccionDependencias.md)
 * [Clase 3 - EF Core](/Clases/Clase%203%20-%20EntityFrameworkCore.md)
-<!---* [Clase 4 - Testing](/Clases/Clase4.1_Testing.md)
+* [Clase 4 - Testing](/Clases/Clase4.1_Testing.md)
 * [Clase 4 - Mocking](/Clases/Clase4.2_Mocking.md)
-* Clase 5 - Feriado
+<!---* Clase 5 - Feriado
 * [Clase 6 - Filters](/Clases/Clase5_Filters.md)
 * [Clase 7 - Reflection](/Clases/Clase6_Reflection.md)
 
