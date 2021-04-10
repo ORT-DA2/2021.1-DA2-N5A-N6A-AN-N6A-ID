@@ -15,7 +15,7 @@
 * [Clase 4 - Testing](/Clases/Clase4.1_Testing.md)
 * [Clase 4 - Mocking](/Clases/Clase4.2_Mocking.md)
 * [Clase 5 - Filters](/Clases/Clase5_Filters.md)
-<--* [Clase 7 - Reflection](/Clases/Clase6_Reflection.md)
+<!--* [Clase 7 - Reflection](/Clases/Clase6_Reflection.md)
 
 ## 2) Angular
 
