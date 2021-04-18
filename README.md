@@ -29,6 +29,7 @@
 
 * [EF Core - Lazy Loading](https://www.learnentityframeworkcore.com/lazy-loading)
 * [EF Core - Relaciones: Many To Many](https://www.learnentityframeworkcore.com/configuration/many-to-many-relationship-configuration)
+* [Filters in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
 
 ## Aclaración
 
