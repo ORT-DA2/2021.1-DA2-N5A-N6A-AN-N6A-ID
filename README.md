@@ -15,9 +15,9 @@
 * [Clase 4 - Testing](/Clases/Clase4.1_Testing.md)
 * [Clase 5 - Mocking](/Clases/Clase4.2_Mocking.md)
 * [Clase 6 - Filters](/Clases/Clase5_Filters.md)
-<!--* [Clase 7 - Reflection](/Clases/Clase6_Reflection.md)
+* [Clase 7 - Reflection](/Clases/Clase6_Reflection.md)
 
-## 2) Angular
+<!--## 2) Angular
 
 * [Clase 8 - Angular y las SPA](/Clases/Clase7_Angular_y_las_SPAs.md) / [Código Angular](/Codigo/Frontend) 
 * [Clase 9 - Componentes, Templates, Bootstrapping, Directivas, Data Binding y Pipes](/Clases/Clase8_Componentes_Templates_Bootstrapping_Directivas_Data_Binding_y_Pipes.md)
