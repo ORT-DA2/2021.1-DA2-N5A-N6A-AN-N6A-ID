@@ -54,7 +54,6 @@ namespace Homeworks.WebApi
                 app.UseDeveloperExceptionPage();
             }
             app.UseCors("DefaultPolicy");
-            app.UseHttpsRedirection();
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

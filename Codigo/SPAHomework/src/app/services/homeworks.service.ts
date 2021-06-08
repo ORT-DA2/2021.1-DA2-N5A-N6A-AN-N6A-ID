@@ -1,23 +1,45 @@
-import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
-import { Exercise } from '../models/Exercise';
-import { Homework } from '../models/Homework';
+import { Injectable } from "@angular/core";
+import { HttpClient, HttpHeaders } from "@angular/common/http";
+import { Observable, throwError, of, from } from "rxjs"; 
+import { map, tap, catchError } from 'rxjs/operators';
+import { IHomework } from "../models/IHomework";
+import { Homework } from "../models/Homework";
+import { Exercise } from "../models/Exercise";
+import { environment } from "src/environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
 export class HomeworksService {
+  private URL_HOMEWORK : string = environment.WEB_API_URL + '/homeworks';
 
-  constructor() { }
+  constructor(private _httpService: HttpClient) { }
 
-  public getHomeworks():Observable<Array<Homework>> {
-    return of([
-      new Homework("1", "Una tarea", 0, new Date(), [new Exercise("1", "Un Problema", 0)]),
-      new Homework("2", "Otra tarea", 0, new Date(), [
-          new Exercise("1", "Un Problema", 0),
-          new Exercise("2", "Un Problema 2", 0)
-      ]),
-      new Homework("3", "Otra Otra tarea", 0, new Date(), []),
-    ]);
+  getHomeworks():Observable<Array<IHomework>> {
+    const myHeaders = new HttpHeaders();
+    myHeaders.append('Accept', 'application/json');    
+    const httpOptions = {
+        headers: myHeaders
+    };
+    return this._httpService.get<Array<IHomework>>(this.URL_HOMEWORK, httpOptions);
+  }
+
+  getHomework(id: string): Observable<IHomework> {
+    return this._httpService.get<IHomework>(this.URL_HOMEWORK + '/' + id, {});
+  }
+
+  postHomework(homework: IHomework): Observable<IHomework> {
+    const myHeaders = new HttpHeaders();
+    myHeaders.append('Accept', 'application/json');    
+    const httpOptions = {
+        headers: myHeaders
+    };
+    const body = homework;
+    return this._httpService.post<IHomework>(this.URL_HOMEWORK, body, httpOptions);
+  }
+
+  private handleError(errorRequest: any) {
+    console.error(errorRequest);
+    return throwError(errorRequest.error || errorRequest.message);
   }
 }

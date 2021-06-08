@@ -11,7 +11,8 @@ namespace Homeworks.WebApi.Models
         public string Description { get; set; }
         public DateTime DueDate { get; set; }
         public int Score { get; set; }
-        public List<ExerciseModel> Exercises {get; set;}
+        public List<ExerciseModel> Exercises { get; set; }
+        public int Rating { get; set; }
 
         public HomeworkModel()
         {

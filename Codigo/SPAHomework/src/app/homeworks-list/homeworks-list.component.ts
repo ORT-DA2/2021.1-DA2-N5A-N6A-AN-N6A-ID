@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { Homework } from '../models/Homework';
+import { Component, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
+import { Observable, Subscription } from 'rxjs';
+import { IHomework } from '../models/IHomework';
 import { HomeworksService } from '../services/homeworks.service';
 
 @Component({
@@ -8,22 +8,27 @@ import { HomeworksService } from '../services/homeworks.service';
   templateUrl: './homeworks-list.component.html',
   styleUrls: ['./homeworks-list.component.scss']
 })
-export class HomeworksListComponent implements OnInit {
+
+export class HomeworksListComponent implements OnChanges {
     pageTitle:string = "Homeworks List";
     listFilter:string = "";
     showExercises:boolean = false;
-    homeworks:Observable<Array<Homework>>;
+    homeworks$: Observable<IHomework[]>;
 
     constructor(private _homeworks: HomeworksService) { 
-        this.homeworks = _homeworks.getHomeworks();
+        this.homeworks$ = _homeworks.getHomeworks();
     }
 
-    ngOnInit() {
-
+    ngOnChanges(changes: SimpleChanges): void {
+        console.log("aaa");
     }
 
     public toggleExercises(): void {
         this.showExercises = !this.showExercises;
+    }
+
+    public onRatingClicked(message:string): void {
+        this.pageTitle = 'Homeworks List: ' + message;
     }
 
 }

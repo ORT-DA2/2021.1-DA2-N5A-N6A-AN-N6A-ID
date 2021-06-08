@@ -1,15 +1,16 @@
-import { Exercise } from "./Exercise";
+import { IExercise } from "./IExercise";
+import { IHomework } from "./IHomework";
 
-export class Homework {
+export class Homework implements IHomework {
     id: string;
     description: string;
     dueDate: Date;
     score: number;
-    exercises: Array<Exercise>;
+    exercises: Array<IExercise>;
     rating: number;
 
-    constructor(id:string, description:string, score:number, 
-        dueDate:Date, exercises: Array<Exercise>, rating: number = 3){
+    constructor(id:string = "", description:string = "", score:number = 5, 
+        dueDate:Date = new Date(), exercises: Array<IExercise> = [], rating: number = 3){
         this.id = id;
         this.description = description;
         this.score = score;
