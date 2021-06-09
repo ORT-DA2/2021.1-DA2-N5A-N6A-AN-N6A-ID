@@ -14,7 +14,7 @@ export class HolaGuard implements CanActivate {
   }
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean> {
-    return this._homeworks.getHomework(route.params['id'])
+    return this._homeworks.get(route.params['id'])
       .pipe(map(x => x != null));
   }
 }

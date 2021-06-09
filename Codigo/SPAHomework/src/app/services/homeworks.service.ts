@@ -24,11 +24,11 @@ export class HomeworksService {
     return this._httpService.get<Array<IHomework>>(this.URL_HOMEWORK, httpOptions);
   }
 
-  getHomework(id: string): Observable<IHomework> {
+  get(id: string): Observable<IHomework> {
     return this._httpService.get<IHomework>(this.URL_HOMEWORK + '/' + id, {});
   }
 
-  postHomework(homework: IHomework): Observable<IHomework> {
+  create(homework: IHomework): Observable<IHomework> {
     const myHeaders = new HttpHeaders();
     myHeaders.append('Accept', 'application/json');    
     const httpOptions = {

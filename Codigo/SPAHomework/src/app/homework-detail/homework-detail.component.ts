@@ -25,7 +25,7 @@ export class HomeworkDetailComponent implements OnInit {
     let id = this._currentRoute.snapshot.params['id'];
     // definimos el string con interpolation 
     this.pageTitle += `: ${id}`;
-    this.homework$ = this._homeworks.getHomework(id);
+    this.homework$ = this._homeworks.get(id);
   }
 
   onBack(): void {

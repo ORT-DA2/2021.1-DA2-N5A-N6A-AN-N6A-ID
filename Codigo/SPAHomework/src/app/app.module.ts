@@ -13,6 +13,8 @@ import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontaweso
 import { HomeworkDetailComponent } from './homework-detail/homework-detail.component';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeworkCreateComponent } from './homework-create/homework-create.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeworksFilterPipe,
     WelcomeComponent,
     StarComponent,
-    HomeworkDetailComponent
+    HomeworkDetailComponent,
+    HomeworkCreateComponent
   ],
   imports: [
     HttpClientModule,
@@ -29,7 +32,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     NgbModule,
     FormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
